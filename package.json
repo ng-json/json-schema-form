@@ -1,0 +1,20 @@
+{
+  "name": "@ng-json/json-schema-form",
+  "version": "0.0.1",
+  "description": "json schema form",
+  "main": "dist/json-schema-form.js",
+  "repository": "https://github.com/ng-json/json-schema-form.git",
+  "author": "22436725+vairamsvsjdo@users.noreply.github.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "peer-deps-externals-webpack-plugin": "^1.0.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
